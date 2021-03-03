@@ -23,6 +23,7 @@ Finally, the program sends an email to the client with his revenue and a graph f
 
 **If we run the Alert Check:**\
 We proccess the stock prices, and check if the stock prices went up or down by a certain percentage, (set by the user in the App.config - explanation bellow).
+If it changed by that percentage or more, we send an email to alert the client.
 
 ## Setup:
 ### App.config
