@@ -7,11 +7,6 @@
 			"Stocks": [
 				{
 					"Id": "DAL",
-					"Name": "DAL 1",
-					"Price": 19.3
-				},
-				{
-					"Id": "DAL",
 					"Name": "DAL 2",
 					"Price": 25.6
 				},
@@ -26,6 +21,20 @@
 					"Price": 3104.25
 				}
 			]
+			
+		},
+		{
+			"EmailAdresses": [
+				"client_2@example.com"
+			],
+			"Stocks": [
+				{
+					"Id": "GOOGL",
+					"Name": "Google",
+					"Price": 1745.85
+				}
+			]
+			
 		}
 	]
 }
