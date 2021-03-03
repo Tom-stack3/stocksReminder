@@ -25,7 +25,8 @@
 		},
 		{
 			"EmailAdresses": [
-				"client_2@example.com"
+				"client_2@example.com",
+				"other_email@ex.co"
 			],
 			"Stocks": [
 				{
