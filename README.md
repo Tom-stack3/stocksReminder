@@ -68,7 +68,7 @@ There can be multipule email addresses for each client. (for each bundle of stoc
  	* `"Id"`: the stock's symbol.
  	* `"Name"`: the stock's name, the client wants to be shown on the reports.
  	* `"Price"`: the price the client bought the stock originally. (for calculating the revenue)
-
+See the example in [users.json](/stocksReminder/bin/Debug/users.json).\
 
 
 
