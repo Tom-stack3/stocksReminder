@@ -60,13 +60,14 @@ Optional:
 ### users.json
 Before running the program, you will also need to edit the [users.json](/stocksReminder/bin/Debug/users.json).\
 This is the file which contains the info about each client:
- 1. The email addresses to send the Weekly reports and the alerts.\
+ 1. `"EmailAdresses"`:\
+The email addresses to send the Weekly reports and the alerts.\
 There can be multipule email addresses for each client. (for each bundle of stocks).
- 2. His stocks:
+ 2. `"Stocks"`: (the client's stocks)\
  	for each stock:
- 	* `"Id":` the stock's symbol.
- 	* `"Name":` the stock's name, the client wants to be shown on the reports.
- 	* `"Price":` the price the client bought the stock originally. (for calculating the revenue)
+ 	* `"Id"`: the stock's symbol.
+ 	* `"Name"`: the stock's name, the client wants to be shown on the reports.
+ 	* `"Price"`: the price the client bought the stock originally. (for calculating the revenue)
 
 
 
