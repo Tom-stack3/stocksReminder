@@ -56,3 +56,15 @@ In the App.config, you have a couple of things to change in the `<appSettings>`:
 
 Optional:
  * Change `ChangeToAlertOn` to the percentage you want the program to alert on.
+
+### users.json
+This is the file which contains the info about each client:
+ 1. His email address to send the Weekly reports and the alerts
+ 2. His stocks:
+ 	for each stock:
+ 	* `"Id":` the stock's symbol.
+ 	* `"Name":` the stock's name, the client wants to be shown on the reports.
+ 	* `"Price":` the price the client bought the stock originally. To calculate the revenue.
+Before running the program, you also need to edit the [users.json](/stocksReminder/bin/Debug/users.json).
+
+
