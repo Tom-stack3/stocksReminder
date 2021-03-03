@@ -59,7 +59,7 @@ Optional:
 
 ### users.json
 This is the file which contains the info about each client:
- 1. His email address to send the Weekly reports and the alerts
+ 1. The email addresses to send the Weekly reports and the alerts. (There can be multipule email addresses for a bundle of stocks).
  2. His stocks:
  	for each stock:
  	* `"Id":` the stock's symbol.
