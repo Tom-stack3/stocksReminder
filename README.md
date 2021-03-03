@@ -15,7 +15,7 @@ For Israeli stocks, which don't show up on the finnhub API, I use the [bizportal
 You are welcome to check those out! 
 
 **If we run the Weekly reminder:**\
-We proccess the stock prices, and create a graph using Google Chart API. Go check it out [here](https://developers.google.com/chart/image/)!\
+We proccess the stock prices, and create a graph using Google Chart API. Go check it out [developers.google.com/chart/image](https://developers.google.com/chart/image/)!\
 An example for a graph generated for Amazon stock:
 [here](https://chart.googleapis.com/chart?cht=lc&chs=300x225&chd=t:3180.74,3194.5,3159.53,3057.16,3092.93,3146.14,3094.53|13637.5,13580.7998,13223.7002,13194.7002,13302.2002,12828.2998,12909.4004&chxt=x,y&chds=3029.40824021886,3222.25175978114,12186.88481,14278.91499&chxr=1,3029.40824021886,3222.25175978114100&chxl=0:|02-24|02-25|02-26|02-27|02-28|03-01|03-02&chco=3072F3,ff0000&chm=D,0999FF,0,0,2&chg=14.2857142857143,10&chtt=Amazon&chdl=Amazon|NASDAQ-100&chdlp=b)
 
