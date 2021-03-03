@@ -27,7 +27,7 @@ If it changed by that percentage or more, we send an email to alert the client.
 
 ## Setup:
 ### App.config
-Before running the program, you need to edit the [App.config](/stocksReminder/App.config).
+Before running the program, you will need to edit the [App.config](/stocksReminder/App.config).
 It will look like this: 
 ```xml
 <?xml version="1.0" encoding="utf-8" ?>
@@ -58,13 +58,16 @@ Optional:
  * Change `ChangeToAlertOn` to the percentage you want the program to alert on.
 
 ### users.json
+Before running the program, you will also need to edit the [users.json](/stocksReminder/bin/Debug/users.json).\
 This is the file which contains the info about each client:
- 1. The email addresses to send the Weekly reports and the alerts. (There can be multipule email addresses for a bundle of stocks).
+ 1. The email addresses to send the Weekly reports and the alerts.\
+There can be multipule email addresses for each client. (for each a bundle of stocks).
  2. His stocks:
  	for each stock:
  	* `"Id":` the stock's symbol.
  	* `"Name":` the stock's name, the client wants to be shown on the reports.
- 	* `"Price":` the price the client bought the stock originally. To calculate the revenue.
-Before running the program, you also need to edit the [users.json](/stocksReminder/bin/Debug/users.json).
+ 	* `"Price":` the price the client bought the stock originally. (for calculating the revenue)
+
+
 
 
