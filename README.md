@@ -1,8 +1,6 @@
 # stocksReminder
-A C# project I made for managing your stock purchases.\
-It sends a weekly recap for all your stocks.\
-For each stock we generate a graph, that shows the progress of the stock compared to the Nasdaq-100.\
-and calculates the revenue for each stock.
+A C# project I made for managing your stock purchases, which sends a weekly recap for all stocks interested in.
+For each stock we generate a graph, that shows the progress of the stock compared to the Nasdaq-100, and calculates the revenue for each stock.
 
 ### Weekly reminder example:
 <img src="https://raw.githubusercontent.com/Tom-stack3/stocksReminder/main/images/weekly_email_example.png" alt="" width="300" height="516" />
@@ -22,7 +20,7 @@ An example for a graph generated for Amazon stock:
 Finally, the program sends an email to the client with his revenue and a graph for every stock.
 
 **If we run the Alert Check:**\
-We proccess the stock prices, and check if the stock prices went up or down by a certain percentage, (set by the user in the App.config - explanation bellow).
+We proccess the stock prices, and check if the stock prices went up or down by a certain percentage, (set by the user in the `App.config` - explanation bellow).
 If it changed by that percentage or more, we send an email to alert the client.
 
 ## Setup:
@@ -49,7 +47,7 @@ It will look like this:
     </appSettings>
 </configuration>
 ```
-In the App.config, you have a couple of things to change in the `<appSettings>`:
+In the `App.config`, you have a couple of things to change in the `<appSettings>`:
  * Change `MailFromAddress` to a working email, you want the program to send the emails from.
  * Change `MailFromPass` to the matching password for the email address you chose above.
  * Change `FinnhubAPIkey` to your API key. You can get yours on https://finnhub.io/.
@@ -69,7 +67,7 @@ There can be multipule email addresses for each client. (for each bundle of stoc
  	* `"Name"`: the stock's name, the client wants to be shown on the reports.
  	* `"Price"`: the price the client bought the stock originally. (for calculating the revenue)
  
-See the example in [users.json](/stocksReminder/bin/Debug/users.json).
+See an example in [users.json](/stocksReminder/bin/Debug/users.json).
 
 
 
