@@ -1,5 +1,5 @@
 # stocksReminder
-A C# project I made for managing your stock purchases, which sends a weekly recap for all stocks interested in.
+A C# project I made for managing stock purchases, which sends a weekly recap for all stocks interested in.
 For each stock we generate a graph, that shows the progress of the stock compared to the Nasdaq-100, and calculates the revenue for each stock.
 
 ### Weekly reminder example:
